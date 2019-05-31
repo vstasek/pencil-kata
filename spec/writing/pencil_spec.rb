@@ -1,5 +1,6 @@
 require 'writing/pencil'
 
+=begin
 RSpec.describe Writing::Pencil do
   let(:pencil) { described_class.new }
   let(:paper) { "lorem ipsum dolor lorem ipsum dolor sit amet" }
@@ -206,3 +207,4 @@ RSpec.describe Writing::Pencil do
     end
   end
 end
+=end
